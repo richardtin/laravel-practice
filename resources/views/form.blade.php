@@ -35,10 +35,33 @@
 
 <body>
 
-    <div class="container-fluid">
-
-        <div class="row"><div class="col-sm-3">
+    <div class="row">
+        <div class="col-sm-3">
             <table class="table table-borderless">
+                <tr class="success"><td>BenQ Projector Calculator</td></tr>
+                <tr><td>
+                    <table class="table table-condensed">
+                        <tr>
+                            <td>Unit:</td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Installation Type:</td>
+                            <td>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Desktop <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Desktop</a></li>
+                                        <li><a href="#">Ceiling</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td></tr>
                 <tr class="success"><td>Room Dimension</td></tr>
                 <tr><td>
                     <table class="table table-condensed">
@@ -189,8 +212,10 @@
                     </table>
                 </td></tr>
             </table>
-        </div></div>
-
+        </div>
+        <div class="col-sm-9">
+            <h1>Content</h1>
+        </div>
     </div>
 
     <!-- jQuery -->
